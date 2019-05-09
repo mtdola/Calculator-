@@ -14,34 +14,34 @@
         <div id="display"></div>
         <div id="sideContainer">
             <div id="leftSide">
-                <button id="c">C</button>
-                <button id="brackets">( )</button>
-                <button id="delete">del</button>
-                <button id="seven">7</button>
-                <button id="eight">8</button>
-                <button id="nine">9</button>
-                <button id="four">4</button>
-                <button id="five">5</button>
-                <button id="six">6</button>
-                <button id="one">1</button>
-                <button id="two">2</button>
-                <button id="three">3</button>
+                <button id="c" onclick="calculate(clear)">C</button>
+                <button id="brackets" onclick="calculate(brackets)">( )</button>
+                <button id="delete" onclick="calculate(delete)">del</button>
+                <button id="seven" onclick="calculate(7)">7</button>
+                <button id="eight" onclick="calculate(8)">8</button>
+                <button id="nine" onclick="calculate(9)">9</button>
+                <button id="four" onclick="calculate(4)">4</button>
+                <button id="five" onclick="calculate(5)">5</button>
+                <button id="six" onclick="calculate(6)">6</button>
+                <button id="one" onclick="calculate(1)">1</button>
+                <button id="two" onclick="calculate(2)">2</button>
+                <button id="three" onclick="calculate(3)">3</button>
                 <!--percentage--> 
-                <button id="percentage">&#37;</button>
-                <button id="zero">0</button>
-                <button id="point">.</button>
+                <button id="percentage" onclick="calculate(percentage)">&#37;</button>
+                <button id="zero" onclick="calculate(0)">0</button>
+                <button id="point" onclick="calculate(.)">.</button>
             </div>
             <div id="rightSide">
                 <!--division--> 
-                <button id="division">&#247;</button>
+                <button id="division" onclick="calculate(/)">&#247;</button>
                 <!--multiplication--> 
-                <button id="multiplication">&#215;</button>
+                <button id="multiplication" onclick="calculate(*)">&#215;</button>
                 <!--subtraction--> 
-                <button id="subtraction">&#45;</button>
+                <button id="subtraction" onclick="calculate(-)">&#45;</button>
                 <!--addition--> 
-                <button id="addition">&#43;</button>
+                <button id="addition" onclick="calculate(+)">&#43;</button>
                 <!--Equality--> 
-                <button id="equality">&#61;</button>
+                <button id="equality" onclick="calculate(=)">&#61;</button>
             </div>
         </div>
     </div>
