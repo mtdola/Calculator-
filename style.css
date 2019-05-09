@@ -66,6 +66,7 @@ button {
     background-color: #161638;
     color: white;
     font-weight: 500;
+    outline: none;
 }
 button:hover {
     background-color: rgb(30, 30, 65);
