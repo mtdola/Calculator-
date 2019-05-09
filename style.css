@@ -50,9 +50,9 @@ span:nth-child(2) {
     flex-direction: column;
 */
 /*    top: 0;*/
-    padding-left: 3px;
+    padding-left: 8px;
     width: 20%;
-    padding-right: 15px;
+    padding-right: 11px;
     background-color: #28285c;
     border-radius: 0 0 5px 0;
 }
