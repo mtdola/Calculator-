@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0; 
     color: white;
+    font-family: cursive;
 }
 .container {
     margin: auto;
@@ -28,9 +29,19 @@ span:nth-child(1) {
 span:nth-child(2) {
     color: white;
 }
-#display {
+#result {
     height: 100px;
     background-color: #05061a;
+    text-align: right;
+    padding: 0;
+    margin: 0;
+}
+#history {
+    height: 50%;
+    font-size: 15px;
+}
+#output {
+    font-size: 25px;
 }
 #sideContainer {
     display: flex; 
