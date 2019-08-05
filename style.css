@@ -12,7 +12,7 @@
     font-family: sans-serif;
     border-radius: 5px;
     border: 0.5px solid grey;
-    box-shadow: 2px 3px 1px #eeeeeecc navy;
+    box-shadow: 5px 10px 5px #777;
     margin-top: 4%;
 }
 #name {
@@ -33,12 +33,13 @@ span:nth-child(2) {
     height: 100px;
     background-color: #05061a;
     text-align: right;
-    padding: 0;
+    padding-right: 8px;
     margin: 0;
 }
 #history {
     height: 50%;
     font-size: 15px;
+    padding: 5px;
 }
 #output {
     font-size: 25px;
