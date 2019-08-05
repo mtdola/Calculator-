@@ -1,7 +1,9 @@
 function getHistory() {
-    return document.getElementById("historyValue").innerText;
+    return document.getElementById("historyValue").innerHTML;
 }
 function prinHistory(num) {
-    
+	document.getElementById("historyValue").innerHTML=num;
+	
 }
-alert(getHistory());
+printHistory(10);
+
